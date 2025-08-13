@@ -38,7 +38,7 @@
     
 }
 
-main{
+main,footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -221,6 +221,25 @@ main>section{
     filter: grayscale(0%);
    
 }
+
+
+/* footer section style */
+.footer{
+    margin-top:100px ;
+    margin-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-description{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+
 /* responsive device */
 
 @media screen and (max-width:576px){
@@ -251,6 +270,9 @@ main>section{
     .sponser-company{
        justify-items: center;
        gap: 24px;
+    }
+    .footer-description{
+        text-align: center;
     }
 }
 
