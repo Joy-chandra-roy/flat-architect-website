@@ -64,6 +64,9 @@ main>section{
     font-size: 3rem;
     font-weight: 700;
 }
+.dots-icons{
+    display: none;
+}
 .nav-item{
     list-style: none;
 }
@@ -243,12 +246,27 @@ main>section{
 /* responsive device */
 
 @media screen and (max-width:576px){
-    .navbar, 
+    
     .nav-links,
     .teams,
     .features{
         flex-direction: column;;
     }
+    .navbar{
+        padding-right: 10px;
+    }
+    .dots-icons{
+    display: block;
+   }
+   .dots-icons i{
+    font-size: 2rem;
+    color: #FF900E;
+    cursor: pointer;
+   }
+    
+   .nav-links{
+    display: none;
+   }
     .features{
         gap: 80px;
     }
